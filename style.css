@@ -1,0 +1,250 @@
+/* 
+; 
+font-family: 'Kufam', cursive;*/
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    font-family: "Dosis", cursive;
+    font-size: 20px;
+    background-image: url("./images/header-pg.jpg");
+    background-size: cover;
+    background-position:  center;
+    background-repeat: no-repeat;
+}
+
+.mainpageHeader{
+    width: 100%;
+    height: 757px;
+    position: relative;
+    
+    
+}
+
+.headercontainer{
+    width: 100%;
+    height: 757px;
+    margin: auto;
+}
+
+.headercontainer__top{
+    width: 100%;
+    height: 50px;
+    position: relative;
+}
+
+#headercontainer-left{
+    list-style-type: none;
+    display: inline-block;
+}
+
+#headercontainer-left li{
+    display: inline-block;
+    line-height: 50px;
+    border-right: 1px solid #95d5a8;
+    padding: 0 10px;
+}
+
+#headercontainer-left li:first-child{
+    padding-left: 50px;
+}
+
+#headercontainer-left li:last-child{
+    border-right: 0;
+}
+
+#headercontainer-left li a{
+    text-decoration: none;
+    color: #95d5a8;
+}
+
+#headercontainer-left li a:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+#headercontainer-right{
+    position: relative;
+    float: right;
+    margin-top: 5px;
+}
+
+.contact_tellogo{
+    margin-top: 10px;
+    margin-right: 10px;
+    float: left;
+    width: 30px;
+    height: 30px;
+}
+.contact_telnumber{
+    line-height: 50px;
+    float: left;
+    color: #95d5a8;
+    margin-right: 10px;
+}
+
+.contact_maillogo{
+    width: 30px;
+    height: 30px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.contact_mailadress{
+    float: left;
+    line-height: 50px;
+    margin-right: 10px;
+    margin-left: 10px;
+    color: #95d5a8;
+}
+
+#headercontainer-right img{
+    width: 30px;
+    height: 30px;
+}
+
+/* NAV BAŞLANGIÇ */
+
+nav{
+    width: 100%;
+    height: 80px;
+    position: absolute;
+    top: 50px;
+    background-color: rgba(0, 0, 0, 0.5)
+}
+
+#navcontainer{
+    width: 80%;
+    height: 80px;
+    position: relative;
+    margin: auto;
+}
+
+#navlogo {
+    
+    color: #ED690D;
+    font-size: 30px;
+    font-family: 'Rubik', sans-serif;
+    line-height: 80px;
+    display: inline;
+}
+
+#navcontainer_right{
+    list-style-type: none;
+    display: block;
+    float: right;
+}
+
+#navcontainer_right li{
+    display: inline-block;
+    line-height: 80px;
+    margin-left: 20px;
+}
+
+#navcontainer_right li a{
+    color: #95d5a8;
+    text-decoration: none;
+}
+
+#navcontainer_right li a:hover{
+    color: white;
+    text-decoration-line: underline;
+}
+
+.headercontainer--titles{
+    margin-top: 230px;
+    margin-left: 50px;
+}
+.headercontainer--titles h1{
+    font-size: 60px;
+    line-height: 80px;
+    color: #95d5a8;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif  ;
+    text-shadow: 5px 5px 10px rgb(0, 0, 0);
+}
+
+.headercontainer--titles h2{
+    margin-top: 30px;
+    font-size: 40px;
+    line-height: 60px;
+    color: #95d5a8;
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 5px 5px 5px rgb(0, 0, 0);
+    
+}
+
+.headercontainer--titles p{
+    margin-top: 30px;
+    padding-right: 5px;
+    display: inline-block;
+    font-size: 20px;
+    line-height: 40px;
+    color: #95d5a8;
+    text-shadow: 3px 3px 5px rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.headercontainer--buttons{
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.headercontainer--buttons button{
+    width: 120px;
+    height: 60px;
+    font-size: large;
+}
+
+.headercontainer--buttons button a{
+    text-decoration: none;
+    color: black;
+    transition: all 1s ease-in-out;
+}
+
+.headercontainer--buttons button:first-child{
+    background-color: #ED690D; 
+}
+
+.headercontainer--buttons button:first-child:hover{
+    background-color: #95d5a8; 
+}
+
+.headercontainer--buttons button:last-child{
+    background-color: #95d4a8; 
+    margin-left: 20px;
+}
+
+.headercontainer--buttons button:last-child:hover{
+    background-color: #ED690D; 
+}
+
+.socialmedia{
+    float: right;
+    margin-right: 25px;
+    margin-top: 20px;
+}
+
+.socialmedia ul{
+    list-style-type: none;
+}
+
+.socialmedia ul a{
+    text-decoration: none;
+    color: #95d4a8;  
+}
+
+.socialmedia ul a:hover{
+    color: white;
+    text-decoration-line: underline ;
+}
+
+.socialmedia ul li{
+    margin-bottom: 10px;
+}
