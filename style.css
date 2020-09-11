@@ -301,4 +301,79 @@ nav{
     text-align: justify;
 }
 
+/* 2. SECTION STARTS   */
+
+.unlimitedsec{
+    width: 100%;
+    position: relative;
+
+}
+
+.menustart{
+    position: relative;
+    width: 1346px;
+    min-height: 500px;
+    background-image: url("./images/menu1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    margin: auto;
+}
+
+.menustart div{
+    width:1346px;
+    position: absolute;
+    top: 40%;    
+    text-align: center;
+    
+}
+
+.menustart div span{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 20px;
+    font-size: 1em;
+    display: inline-block;
+    border: 1px solid #95d4a8;
+    color:#95d4a8;
+    background-color: rgba(0, 0, 0, 0.5);
+    
+}
+
+.menustart div span a{
+    text-decoration: none;
+    color:#95d4a8;
+    font-size: 2em;
+}
+
+.menustart div span a:hover{
+    text-decoration-line: underline;
+    color: #ED690D;
+}
+
+.menucontent{
+    
+    width: 1346px;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto ;
+    justify-content: center;
+}
+
+.menucontent img{
+    width: 310px;
+    height: 300px;
+    margin-bottom: 10px;
+}
+
+.img{
+    margin : 5px ;
+    opacity: 0.5;
+    box-shadow: -5px 5px gray;
+}
+
+.img:hover {
+  opacity: 1;
+}
 
