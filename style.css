@@ -377,3 +377,128 @@ nav{
   opacity: 1;
 }
 
+/* 3. SECTION STARTS   */
+
+section .kitchen_title{
+    margin: 90px auto 0px;
+}
+section .kitchen_title h1{
+    text-align: center;
+    font-family: 'Kufam', cursive;
+    font-size: 2em ;
+}
+
+
+section .kitchenpart{
+    width: 1200px;
+    height: 600px;
+    margin: 10px auto ;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+section .kitchenpart .chef{
+    width: 380px;
+    height: 520px;
+    margin: auto;
+    overflow: hidden;
+}
+
+
+ section .kitchenpart .chef img{
+    width: 380px;
+    height: 520px;
+    
+}
+
+section .kitchenpart .chef .chef1_hover{
+    width: 380px;
+    height: 520px;
+    background-image: url("./images/menu5.jpg");
+    background-size: contain ;
+    position: relative;
+    top: -525px;
+    left: -380px;
+    transition: all 2s ease-in-out;
+    opacity: 0.7;
+    
+  
+}
+
+section .kitchenpart .chef:hover .chef1_hover{
+    left: 0;
+}
+
+section .kitchenpart .chef .chef1_hover .chef1_hover_text{
+    background-color: black;
+    position: absolute;
+    width: 380px;
+    line-height: 60px;
+    color: #ED690D;
+    margin-top: 200px;
+    text-align: center;
+}
+
+section .kitchenpart .chef .chef2_hover{
+    width: 380px;
+    height: 520px;
+    background-image: url("./images/menu7.jpg");
+    background-size: cover ;
+    background-repeat: no-repeat ;
+    background-position: center;
+    position: relative;
+    top: -525px;
+    left: -380px;
+    transition: all 2s ease-in-out;
+    opacity: 0.7;
+    
+  
+}
+
+section .kitchenpart .chef:hover .chef2_hover{
+    left: 0;
+}
+
+section .kitchenpart .chef .chef2_hover .chef2_hover_text{
+    background-color: black;
+    position: absolute;
+    width: 380px;
+    line-height: 60px;
+    color: #ED690D;
+    margin-top: 200px;
+    text-align: center;
+}
+
+section .kitchenpart .chef .chef3_hover{
+    width: 380px;
+    height: 520px;
+    background-image: url("./images/menu6.jpg");
+    background-size: cover ;
+    background-repeat: no-repeat ;
+    background-position: center;
+    position: relative;
+    top: -525px;
+    left: -380px;
+    transition: all 2s ease-in-out;
+    opacity: 0.7;
+    
+  
+}
+
+section .kitchenpart .chef:hover .chef3_hover{
+    left: 0;
+}
+
+section .kitchenpart .chef .chef3_hover .chef3_hover_text{
+    background-color: black;
+    position: absolute;
+    width: 380px;
+    line-height: 60px;
+    color: #ED690D;
+    margin-top: 200px;
+    text-align: center;
+}
+
