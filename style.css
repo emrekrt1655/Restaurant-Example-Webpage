@@ -251,6 +251,10 @@ nav{
     margin-bottom: 10px;
 }
 
+.socialmedia li img{
+    vertical-align: middle;
+}
+
 /* SECTION STARTS */
 
 .limitedsec{
@@ -352,7 +356,7 @@ nav{
 
 .menucontent{
     
-    width: 1346px;
+    width: 1200px;
     height: 600px;
     display: flex;
     flex-direction: row;
@@ -362,7 +366,7 @@ nav{
 }
 
 .menucontent img{
-    width: 310px;
+    width: 250px;
     height: 300px;
     margin-bottom: 10px;
 }
@@ -370,11 +374,12 @@ nav{
 .img{
     margin : 5px ;
     opacity: 0.5;
-    box-shadow: -5px 5px gray;
+    /* box-shadow: -5px 5px gray; */
 }
 
 .img:hover {
   opacity: 1;
+  box-shadow: -5px 5px gray;
 }
 
 /* 3. SECTION STARTS   */
@@ -502,3 +507,128 @@ section .kitchenpart .chef .chef3_hover .chef3_hover_text{
     text-align: center;
 }
 
+/* The Last section */
+
+.lastsection{
+    width: 100%;
+    height: auto;
+    background-size: cover ;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.lastsection__container{
+    width: 80%;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around  ;
+    margin: auto;
+
+}
+
+.lastsection__container--leftside{
+    box-sizing: border-box;
+    width: 50%;
+    height: 600px;
+    background-color: rgba(0, 0, 0, 0.7);
+    margin-left: 30px;
+    padding: 110px 20px 0px;
+    text-align: center;
+    color: #95d4a8;
+    font-weight: 800;
+    margin-right: 40px ;
+}
+
+.lastsection__container--leftside p{
+    color: #ffffff;
+    font-weight: normal;
+}
+
+.lastsection__container--rightside{
+    box-sizing: border-box;
+    width: 30%;
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.7);
+    float: right;
+    margin-top: 50px;
+    margin-left: 40px;
+    color: #95d4a8;
+    text-align: start;
+    padding: 10px;
+}
+
+.lastsection__container--rightside form{
+    font-size: 15px;
+    
+}
+
+.lastsection__container--rightside form input{
+    width: 90%;
+    padding: 5px;
+    text-align: start;
+    font-size: 15px;
+}
+
+.lastsection__container--rightside form textarea{
+    width: 90%;
+    padding: 5px;
+    text-align: start;
+    font-size: 14px;
+}
+.lastsection__container--rightside form #submitbutton{
+  height: 38px;
+  background-color: #ED690D;
+  border: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #ffffff;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-size: 15px;
+  display: block;
+  margin: auto;
+}
+
+footer{
+    box-sizing: border-box;
+    width: 100%;
+    background-color:rgba(190, 190, 189, 0.609);
+    color: #ED690D;
+    position: relative;
+    padding: 12px;
+}
+
+footer .logo {
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 50px;
+    border-bottom: #ee965c solid 1px;
+    box-sizing: border-box;
+    padding-left: 30px;
+
+}
+
+footer .socialmedia{
+    float: left;
+    margin-top: 10px;
+    
+}
+
+footer .socialmedia li{
+    display: inline;
+}
+
+
+footer .socialmedia a{
+    color: #ee965c;
+    font-size: 15px;
+}
+
+footer .title{
+    text-align: right;
+    line-height: 50px;
+    display: block;
+    margin-right: 30px;
+}
