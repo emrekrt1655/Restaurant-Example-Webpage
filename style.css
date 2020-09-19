@@ -64,6 +64,10 @@ body{
     color: #95d5a8;
 }
 
+#headercontainer-left li .current{
+    color: #ED690D;
+}
+
 #headercontainer-left li a:hover{
     text-decoration: underline;
     color: white;
@@ -157,6 +161,74 @@ nav{
     color: white;
     text-decoration-line: underline;
 }
+
+/* about us page main section starts */
+
+.headercontainer--aboutus{
+    margin: 100px auto 0px;
+    margin-left: 50px;
+    color: #95d5a8;
+    width: 80%;
+    box-sizing: border-box;
+}
+
+.headercontainer--aboutus--leftside{
+    width: 65%;
+    float: left;
+
+}
+
+.headercontainer--aboutus--leftside h3{
+    padding: 30px;
+}
+
+.headercontainer--aboutus--leftside p{
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.headercontainer--aboutus--leftside p span{
+    margin-top: 20px;
+    color: #ED690D;
+    display: block;
+    padding: 15px ;
+    background-color: rgba( 0, 0, 0, 0.7);
+}
+
+.headercontainer--aboutus--rightside{
+    width: 30%;
+    display: block;
+    float: right;
+    line-height: 25px;
+    font-size: 15px;
+    
+    padding: 30px;
+    margin-top: 60px;
+    
+
+}
+
+.headercontainer--aboutus--rightside p{
+
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+    padding: 20px ;
+    color: #95d4a8;
+    display: block;
+    padding: 30px;
+    background-color: rgba( 0, 0, 0, 0.7);
+}
+
+.headercontainer--aboutus--rightside p span{
+    display: block;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* about us page main section ends */
+
+
 
 .headercontainer--titles{
     margin-top: 230px;
@@ -631,4 +703,10 @@ footer .title{
     line-height: 50px;
     display: block;
     margin-right: 30px;
+}
+
+#footer{
+    position: fixed;
+    bottom: 0;
+    background-color: rgba( 0, 0, 0, 0.7);
 }
