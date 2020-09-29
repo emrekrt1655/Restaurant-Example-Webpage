@@ -715,6 +715,63 @@ footer .title{
     background-color: rgba( 0, 0, 0, 0.7);
 }
 
+/* About US */
+.aboutuscontain {
+    width: 80%;
+    margin: auto;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding-top: 20px;
+  }
+  
+  .aboutuscontain__leftpart {
+    width: 65%;
+    float: left;
+  }
+  
+  .aboutuscontain__leftpart__title {
+    padding-bottom: 30px;
+  }
+  
+  .aboutuscontain__leftpart__paragraph {
+    font-size: 15px;
+    line-height: 25px;
+  }
+  
+  .aboutuscontain__leftpart__paragraph span {
+    margin-top: 20px;
+    color: #ffffff;
+    padding: 15px;
+    display: block;
+    background-color: rgba(53, 66, 74, 0.9);
+  }
+  
+  .aboutuscontain__rightpart {
+    width: 30%;
+    display: block;
+    float: right;
+    line-height: 25px;
+    font-size: 15px;
+  }
+  
+  .aboutuscontain__rightpart__goal {
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+    padding: 20px;
+    color: #ffffff;
+    display: block;
+    background-color: rgba(53, 66, 74, 0.9);
+    padding: 30px;
+  }
+  
+  .aboutuscontain__rightpart__goal span {
+    display: block;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+
 /* Our History */
 
 #nav_ab-ohp1 {
